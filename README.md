@@ -6,11 +6,11 @@ This dataset includes the following scripts
 
 1\) TimeCalibration_SL_observation_landsat_img.R
 
-This script imports 'TSS_soc_lap_allyears_1990-2023_LSAT.csv' which has predictor variables extracted from all the Landsat scenes (4-9) that 
-overlap with each presence point between 1990 and 2023, and corresponding 10 random per presence point. 
-The script then looks for all the predictor variable values within 45 days before and after the date of the observation and takes the median value for each predictor value. 
-Both presence and absence files are merged. Resulting file 'model_df_gee.csv' has a response column (presence and absence) with temporally matched predictor columns. 
-Raw presence and absence are not uploaded due to their very large size. 'model_df_gee.csv' is provided here and can be used directly in the Google Earth Engine (next step) 
+This script uses Tasseled Cap indices (predictor variables) from all the Landsat (4-9) scenes (already extracted) that overlap with each presence point between 1990 and 2024, 
+and corresponding 10 random points (pseudoabsences) per presence point. The script then looks for all the predictor variable values within 45 days before and after the date 
+of the observation and takes the median value for each predictor value. Both presence and absence files are merged. Resulting file 'model_df_gee.csv' has a response column (presence and absence) 
+with temporally matched predictor columns. Raw presence and absence are not uploaded due to their very large size. 
+'model_df_gee.csv' is provided here and can be used directly in the Google Earth Engine (next step). 
 
 2\) GEE_randomforest_workflow.java
 
@@ -30,7 +30,7 @@ a) Plotting_habitat_suitability.R
 This script takes the annual median habitat suitability layers exported from Google Earth Engine and summarizes them using BirdLife international 
 home range polygons. This is Figure 2 in the manuscript.
 
-b) Plottin_regional_trends.R
+b) Plotting_regional_trends.R
 This script takes the regional changes statistics files exported from Google Earth Engine and summarizes them to generate Figure 4 in the manuscript.
 
 *Users need a Google Earth Engine account to run this script and need to upload the 'model_df_gee.csv' file and regional changes file in order to run the script. 
