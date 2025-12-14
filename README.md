@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 ## Data for *Habitat suitability for Sociable Lapwing (Vanellus gregarius) increases across its global range, but populations continue to decline*
 
 ## Description of the data and file structure
