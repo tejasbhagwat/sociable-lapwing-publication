@@ -1,0 +1,151 @@
+system:index,country,id,median,region,season,year
+0_00000000000000000003,Kazakhstan,4,0.100943135,Korgalzhyn-Kazakhstan,breed,2011
+0_0000000000000000000e,Kazakhstan,4,0.102707194,Pavlodar-Kazakhstan,breed,2011
+0_00000000000000000001,Saudi Arab,2,0.097170828,Pivot irrigation I-Saudi Arabia,stopover,2011
+0_00000000000000000009,Saudi Arab,2,0.093236967,Pivot irrigation II-Saudi Arabia,stopover,2011
+0_00000000000000000002,Afghanista,3,0.096028624,Lowlands-Northern Afghanistan,stopover,2011
+0_0000000000000000000a,Uzbek-Turk,3,0.095578884,Tallymarzhan-Turkmenistan-Uzbekistan,stopover,2011
+0_00000000000000000008,Russia,5,0.101944806,Manych-Stavropol Krai-Russia,stopover,2011
+0_00000000000000000004,Turkey,6,0.096062602,Ceylanpinar-Turkey,stopover,2011
+0_0000000000000000000b,Turkey,6,0.06286214,Malazgirt Plain-Turkey,stopover,2011
+0_00000000000000000006,Azerbaijan,8,0.10388251,East-Azerbaijan,stopover,2011
+0_00000000000000000007,China,9,0.099168498,Xinjiang-China,stopover,2011
+0_00000000000000000000,India,1,0.114522517,Gujarat-India,winter,2011
+0_0000000000000000000c,Pakistan,1,0.09821979,Indus-Pakistan,winter,2011
+0_0000000000000000000d,Pakistan,1,0.099322747,Indus-Pakistan,winter,2011
+0_00000000000000000005,Sudan,7,0.097128892,Kassala-Sudan,winter,2011
+1_00000000000000000003,Kazakhstan,4,0.099349423,Korgalzhyn-Kazakhstan,breed,2012
+1_0000000000000000000e,Kazakhstan,4,0.10119191,Pavlodar-Kazakhstan,breed,2012
+1_00000000000000000001,Saudi Arab,2,0.097166724,Pivot irrigation I-Saudi Arabia,stopover,2012
+1_00000000000000000009,Saudi Arab,2,0.093238106,Pivot irrigation II-Saudi Arabia,stopover,2012
+1_00000000000000000002,Afghanista,3,0.097061819,Lowlands-Northern Afghanistan,stopover,2012
+1_0000000000000000000a,Uzbek-Turk,3,0.096015623,Tallymarzhan-Turkmenistan-Uzbekistan,stopover,2012
+1_00000000000000000008,Russia,5,0.109948275,Manych-Stavropol Krai-Russia,stopover,2012
+1_00000000000000000004,Turkey,6,0.096076251,Ceylanpinar-Turkey,stopover,2012
+1_0000000000000000000b,Turkey,6,0.062949792,Malazgirt Plain-Turkey,stopover,2012
+1_00000000000000000006,Azerbaijan,8,0.103139987,East-Azerbaijan,stopover,2012
+1_00000000000000000007,China,9,0.099169627,Xinjiang-China,stopover,2012
+1_00000000000000000000,India,1,0.106809557,Gujarat-India,winter,2012
+1_0000000000000000000c,Pakistan,1,0.098227186,Indus-Pakistan,winter,2012
+1_0000000000000000000d,Pakistan,1,0.099847666,Indus-Pakistan,winter,2012
+1_00000000000000000005,Sudan,7,0.097129862,Kassala-Sudan,winter,2012
+2_00000000000000000003,Kazakhstan,4,0.103843774,Korgalzhyn-Kazakhstan,breed,2013
+2_0000000000000000000e,Kazakhstan,4,0.107186547,Pavlodar-Kazakhstan,breed,2013
+2_00000000000000000001,Saudi Arab,2,0.098110129,Pivot irrigation I-Saudi Arabia,stopover,2013
+2_00000000000000000009,Saudi Arab,2,0.09323519,Pivot irrigation II-Saudi Arabia,stopover,2013
+2_00000000000000000002,Afghanista,3,0.097071285,Lowlands-Northern Afghanistan,stopover,2013
+2_0000000000000000000a,Uzbek-Turk,3,0.098111681,Tallymarzhan-Turkmenistan-Uzbekistan,stopover,2013
+2_00000000000000000008,Russia,5,0.114684666,Manych-Stavropol Krai-Russia,stopover,2013
+2_00000000000000000004,Turkey,6,0.097114591,Ceylanpinar-Turkey,stopover,2013
+2_0000000000000000000b,Turkey,6,0.063946149,Malazgirt Plain-Turkey,stopover,2013
+2_00000000000000000006,Azerbaijan,8,0.119617396,East-Azerbaijan,stopover,2013
+2_00000000000000000007,China,9,0.099119134,Xinjiang-China,stopover,2013
+2_00000000000000000000,India,1,0.127407664,Gujarat-India,winter,2013
+2_0000000000000000000c,Pakistan,1,0.09911773,Indus-Pakistan,winter,2013
+2_0000000000000000000d,Pakistan,1,0.105096155,Indus-Pakistan,winter,2013
+2_00000000000000000005,Sudan,7,0.097220813,Kassala-Sudan,winter,2013
+3_00000000000000000003,Kazakhstan,4,0.10191929,Korgalzhyn-Kazakhstan,breed,2014
+3_0000000000000000000e,Kazakhstan,4,0.10338318,Pavlodar-Kazakhstan,breed,2014
+3_00000000000000000001,Saudi Arab,2,0.098177384,Pivot irrigation I-Saudi Arabia,stopover,2014
+3_00000000000000000009,Saudi Arab,2,0.093236604,Pivot irrigation II-Saudi Arabia,stopover,2014
+3_00000000000000000002,Afghanista,3,0.097062862,Lowlands-Northern Afghanistan,stopover,2014
+3_0000000000000000000a,Uzbek-Turk,3,0.09600196,Tallymarzhan-Turkmenistan-Uzbekistan,stopover,2014
+3_00000000000000000008,Russia,5,0.116691812,Manych-Stavropol Krai-Russia,stopover,2014
+3_00000000000000000004,Turkey,6,0.097132742,Ceylanpinar-Turkey,stopover,2014
+3_0000000000000000000b,Turkey,6,0.06208671,Malazgirt Plain-Turkey,stopover,2014
+3_00000000000000000006,Azerbaijan,8,0.10319857,East-Azerbaijan,stopover,2014
+3_00000000000000000007,China,9,0.099285009,Xinjiang-China,stopover,2014
+3_00000000000000000000,India,1,0.14501733,Gujarat-India,winter,2014
+3_0000000000000000000c,Pakistan,1,0.099132947,Indus-Pakistan,winter,2014
+3_0000000000000000000d,Pakistan,1,0.103234227,Indus-Pakistan,winter,2014
+3_00000000000000000005,Sudan,7,0.097220098,Kassala-Sudan,winter,2014
+4_00000000000000000003,Kazakhstan,4,0.103139299,Korgalzhyn-Kazakhstan,breed,2015
+4_0000000000000000000e,Kazakhstan,4,0.119340033,Pavlodar-Kazakhstan,breed,2015
+4_00000000000000000001,Saudi Arab,2,0.098167482,Pivot irrigation I-Saudi Arabia,stopover,2015
+4_00000000000000000009,Saudi Arab,2,0.09323595,Pivot irrigation II-Saudi Arabia,stopover,2015
+4_00000000000000000002,Afghanista,3,0.097068352,Lowlands-Northern Afghanistan,stopover,2015
+4_0000000000000000000a,Uzbek-Turk,3,0.097138232,Tallymarzhan-Turkmenistan-Uzbekistan,stopover,2015
+4_00000000000000000008,Russia,5,0.121540823,Manych-Stavropol Krai-Russia,stopover,2015
+4_00000000000000000004,Turkey,6,0.098166171,Ceylanpinar-Turkey,stopover,2015
+4_0000000000000000000b,Turkey,6,0.06885389,Malazgirt Plain-Turkey,stopover,2015
+4_00000000000000000006,Azerbaijan,8,0.120698716,East-Azerbaijan,stopover,2015
+4_00000000000000000007,China,9,0.100972923,Xinjiang-China,stopover,2015
+4_00000000000000000000,India,1,0.147958901,Gujarat-India,winter,2015
+4_0000000000000000000c,Pakistan,1,0.098243484,Indus-Pakistan,winter,2015
+4_0000000000000000000d,Pakistan,1,0.10414972,Indus-Pakistan,winter,2015
+4_00000000000000000005,Sudan,7,0.09720354,Kassala-Sudan,winter,2015
+5_00000000000000000003,Kazakhstan,4,0.103823263,Korgalzhyn-Kazakhstan,breed,2016
+5_0000000000000000000e,Kazakhstan,4,0.127174101,Pavlodar-Kazakhstan,breed,2016
+5_00000000000000000001,Saudi Arab,2,0.09817358,Pivot irrigation I-Saudi Arabia,stopover,2016
+5_00000000000000000009,Saudi Arab,2,0.093238268,Pivot irrigation II-Saudi Arabia,stopover,2016
+5_00000000000000000002,Afghanista,3,0.097081409,Lowlands-Northern Afghanistan,stopover,2016
+5_0000000000000000000a,Uzbek-Turk,3,0.09601251,Tallymarzhan-Turkmenistan-Uzbekistan,stopover,2016
+5_00000000000000000008,Russia,5,0.118660037,Manych-Stavropol Krai-Russia,stopover,2016
+5_00000000000000000004,Turkey,6,0.097123145,Ceylanpinar-Turkey,stopover,2016
+5_0000000000000000000b,Turkey,6,0.066030929,Malazgirt Plain-Turkey,stopover,2016
+5_00000000000000000006,Azerbaijan,8,0.138094193,East-Azerbaijan,stopover,2016
+5_00000000000000000007,China,9,0.100161576,Xinjiang-China,stopover,2016
+5_00000000000000000000,India,1,0.149916066,Gujarat-India,winter,2016
+5_0000000000000000000c,Pakistan,1,0.098244912,Indus-Pakistan,winter,2016
+5_0000000000000000000d,Pakistan,1,0.105071855,Indus-Pakistan,winter,2016
+5_00000000000000000005,Sudan,7,0.097225814,Kassala-Sudan,winter,2016
+6_00000000000000000003,Kazakhstan,4,0.100925899,Korgalzhyn-Kazakhstan,breed,2017
+6_0000000000000000000e,Kazakhstan,4,0.10383673,Pavlodar-Kazakhstan,breed,2017
+6_00000000000000000001,Saudi Arab,2,0.098204563,Pivot irrigation I-Saudi Arabia,stopover,2017
+6_00000000000000000009,Saudi Arab,2,0.093233559,Pivot irrigation II-Saudi Arabia,stopover,2017
+6_00000000000000000002,Afghanista,3,0.097073896,Lowlands-Northern Afghanistan,stopover,2017
+6_0000000000000000000a,Uzbek-Turk,3,0.09691648,Tallymarzhan-Turkmenistan-Uzbekistan,stopover,2017
+6_00000000000000000008,Russia,5,0.101936959,Manych-Stavropol Krai-Russia,stopover,2017
+6_00000000000000000004,Turkey,6,0.097130638,Ceylanpinar-Turkey,stopover,2017
+6_0000000000000000000b,Turkey,6,0.062082667,Malazgirt Plain-Turkey,stopover,2017
+6_00000000000000000006,Azerbaijan,8,0.105191848,East-Azerbaijan,stopover,2017
+6_00000000000000000007,China,9,0.101000214,Xinjiang-China,stopover,2017
+6_00000000000000000000,India,1,0.134262201,Gujarat-India,winter,2017
+6_0000000000000000000c,Pakistan,1,0.098230515,Indus-Pakistan,winter,2017
+6_0000000000000000000d,Pakistan,1,0.104195066,Indus-Pakistan,winter,2017
+6_00000000000000000005,Sudan,7,0.097213284,Kassala-Sudan,winter,2017
+7_00000000000000000003,Kazakhstan,4,0.103245623,Korgalzhyn-Kazakhstan,breed,2018
+7_0000000000000000000e,Kazakhstan,4,0.109938699,Pavlodar-Kazakhstan,breed,2018
+7_00000000000000000001,Saudi Arab,2,0.09819564,Pivot irrigation I-Saudi Arabia,stopover,2018
+7_00000000000000000009,Saudi Arab,2,0.093235256,Pivot irrigation II-Saudi Arabia,stopover,2018
+7_00000000000000000002,Afghanista,3,0.096308423,Lowlands-Northern Afghanistan,stopover,2018
+7_0000000000000000000a,Uzbek-Turk,3,0.095558505,Tallymarzhan-Turkmenistan-Uzbekistan,stopover,2018
+7_00000000000000000008,Russia,5,0.119641675,Manych-Stavropol Krai-Russia,stopover,2018
+7_00000000000000000004,Turkey,6,0.097140322,Ceylanpinar-Turkey,stopover,2018
+7_0000000000000000000b,Turkey,6,0.064930478,Malazgirt Plain-Turkey,stopover,2018
+7_00000000000000000006,Azerbaijan,8,0.103886319,East-Azerbaijan,stopover,2018
+7_00000000000000000007,China,9,0.101007999,Xinjiang-China,stopover,2018
+7_00000000000000000000,India,1,0.131402163,Gujarat-India,winter,2018
+7_0000000000000000000c,Pakistan,1,0.098249053,Indus-Pakistan,winter,2018
+7_0000000000000000000d,Pakistan,1,0.101843721,Indus-Pakistan,winter,2018
+7_00000000000000000005,Sudan,7,0.097224498,Kassala-Sudan,winter,2018
+8_00000000000000000003,Kazakhstan,4,0.101145405,Korgalzhyn-Kazakhstan,breed,2019
+8_0000000000000000000e,Kazakhstan,4,0.103222441,Pavlodar-Kazakhstan,breed,2019
+8_00000000000000000001,Saudi Arab,2,0.098164962,Pivot irrigation I-Saudi Arabia,stopover,2019
+8_00000000000000000009,Saudi Arab,2,0.093233649,Pivot irrigation II-Saudi Arabia,stopover,2019
+8_00000000000000000002,Afghanista,3,0.09706497,Lowlands-Northern Afghanistan,stopover,2019
+8_0000000000000000000a,Uzbek-Turk,3,0.098096937,Tallymarzhan-Turkmenistan-Uzbekistan,stopover,2019
+8_00000000000000000008,Russia,5,0.115678964,Manych-Stavropol Krai-Russia,stopover,2019
+8_00000000000000000004,Turkey,6,0.100953913,Ceylanpinar-Turkey,stopover,2019
+8_0000000000000000000b,Turkey,6,0.062784522,Malazgirt Plain-Turkey,stopover,2019
+8_00000000000000000006,Azerbaijan,8,0.103200215,East-Azerbaijan,stopover,2019
+8_00000000000000000007,China,9,0.100132554,Xinjiang-China,stopover,2019
+8_00000000000000000000,India,1,0.134287882,Gujarat-India,winter,2019
+8_0000000000000000000c,Pakistan,1,0.099106468,Indus-Pakistan,winter,2019
+8_0000000000000000000d,Pakistan,1,0.103209943,Indus-Pakistan,winter,2019
+8_00000000000000000005,Sudan,7,0.098131369,Kassala-Sudan,winter,2019
+9_00000000000000000003,Kazakhstan,4,0.103208417,Korgalzhyn-Kazakhstan,breed,2020
+9_0000000000000000000e,Kazakhstan,4,0.103174042,Pavlodar-Kazakhstan,breed,2020
+9_00000000000000000001,Saudi Arab,2,0.098179356,Pivot irrigation I-Saudi Arabia,stopover,2020
+9_00000000000000000009,Saudi Arab,2,0.093235639,Pivot irrigation II-Saudi Arabia,stopover,2020
+9_00000000000000000002,Afghanista,3,0.097066836,Lowlands-Northern Afghanistan,stopover,2020
+9_0000000000000000000a,Uzbek-Turk,3,0.097120191,Tallymarzhan-Turkmenistan-Uzbekistan,stopover,2020
+9_00000000000000000008,Russia,5,0.099118415,Manych-Stavropol Krai-Russia,stopover,2020
+9_00000000000000000004,Turkey,6,0.099064351,Ceylanpinar-Turkey,stopover,2020
+9_0000000000000000000b,Turkey,6,0.062096135,Malazgirt Plain-Turkey,stopover,2020
+9_00000000000000000006,Azerbaijan,8,0.100970983,East-Azerbaijan,stopover,2020
+9_00000000000000000007,China,9,0.10014882,Xinjiang-China,stopover,2020
+9_00000000000000000000,India,1,0.15375116,Gujarat-India,winter,2020
+9_0000000000000000000c,Pakistan,1,0.100149374,Indus-Pakistan,winter,2020
+9_0000000000000000000d,Pakistan,1,0.105121436,Indus-Pakistan,winter,2020
+9_00000000000000000005,Sudan,7,0.098118315,Kassala-Sudan,winter,2020

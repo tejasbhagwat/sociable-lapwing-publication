@@ -14,7 +14,7 @@ library(mapview);
 #' and LH), processed by HU to extract all TC indices for all Landsat images available. 
 #================================================================================================================
 # Load and filter data
-SL_lsat_tc = read.csv("./doi_10_5061_dryad_6q573n6b6__v20250816/TSS_soc_lap_allyears_1990-2023_LSAT.csv") %>%
+SL_lsat_tc = read.csv("TasseledCap_All_Landsat_1990_2024.csv") %>% # TSS_soc_lap_allyears_1990-2023_LSAT.csv (Original file name)
              filter(NDVI != -9999, TCB != -9999, TCG != -9999, TCW != -9999) %>% dplyr::select(-.geo) %>% 
              # Change the obs_date format and change the satellite imagery date column name and format
              mutate(obs_date = as.Date(as.POSIXct(obs_date / 1000, origin = "1970-01-01", tz = "UTC", 
@@ -59,7 +59,7 @@ SL_lsat_tc_3_months = SL_lsat_tc %>%
 #---------------------------------------------------------------------------------------------------------------------------------
 # Load and filter data
 #---------------------------------------------------------------------------------------------------------------------------------
-SL_lsat_tc_rp = list.files("folder_path/Random_points/", pattern = "\\.csv$", full.names = T)
+SL_lsat_tc_rp = list.files("folder_path/Random_points/", pattern = "\\.csv$", full.names = T) # Not shared due to data size
 SL_lsat_tc_rp = SL_lsat_tc_rp %>% lapply(read.csv) %>% bind_rows() %>% # THIS WILL BE A LOT OF DATA... 
   # Remove rows with missing values  
   filter(NDVI != -9999, TCB != -9999, TCG != -9999, TCW != -9999) %>%
@@ -84,7 +84,7 @@ SL_lsat_tc_rp_3_months = SL_lsat_tc_rp %>%
   mutate(date_diff = abs(sat_date - obs_date)) %>%                                      # Calculate absolute difference between dates
   group_by(id, obs_date, lat, lon) %>%                                                  # Columns to keep
   slice_min(date_diff, n = 5, with_ties = F) %>%                                        # Select the row with the minimum difference 
-  filter(date_diff <= 45) %>%                                                          # Filter records with date difference less than 45 days
+  filter(date_diff <= 45) %>%                                                           # Filter records with date difference less than 45 days
   # Summarise the data
   summarise(ndvi_median = median(NDVI),                                                 # Calculate median NDVI over 3-months
             tcb_median = median(TCB),                                                   # Calculate median TCB over 3-months
@@ -92,7 +92,7 @@ SL_lsat_tc_rp_3_months = SL_lsat_tc_rp %>%
             tcw_median = median(TCW)) %>%                                               # Calculate median TCW over 3 months
   ungroup()                                                                             # Ungroup the data
                                                                                                    
-  
+#---------------------------------------------------------------------------------------------------------------------------------  
 # Number of BG points where no imagery was found within 15 days of observation date
 length(unique(SL_lsat_tc_rp_15_days$id)) # 
 
@@ -100,10 +100,9 @@ length(unique(SL_lsat_tc_rp_15_days$id)) #
 #' Combine presence and random points
 #' Due to the close vicinity of occurrence points and relatively large 100km buffer around each of them, random points
 #' have overlapped with many adjacent buffers. This means random points have significantly less unique ids than 
-#' he original data. This is fine, as long as we have roughly x10 total random points relative to the presence points 
-#' which we do. 
+#' he original data. This is fine, as long as we have roughly x10 total random points relative to the presence points
 #=================================================================================================================================
-colnames(SL_lsat_tc_3_months); colnames(SL_lsat_tc_rp_3_months)
+# colnames(SL_lsat_tc_3_months); colnames(SL_lsat_tc_rp_3_months)
 # Add presence-absence columns
 SL_lsat_tc_3_months = SL_lsat_tc_3_months %>% select(obs_date, ndvi_median, tcb_median, tcg_median, tcw_median, 
                                                      lat, lon) %>% mutate(status = 1)

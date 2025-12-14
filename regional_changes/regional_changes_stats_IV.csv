@@ -1,0 +1,31 @@
+system:index,country,id,median,region,season,year
+0_00000000000000000003,Kazakhstan,4,0.101924691,Korgalzhyn-Kazakhstan,breed,2021
+0_0000000000000000000e,Kazakhstan,4,0.105248706,Pavlodar-Kazakhstan,breed,2021
+0_00000000000000000001,Saudi Arab,2,0.097235939,Pivot irrigation I-Saudi Arabia,stopover,2021
+0_00000000000000000009,Saudi Arab,2,0.093237197,Pivot irrigation II-Saudi Arabia,stopover,2021
+0_00000000000000000002,Afghanista,3,0.096759408,Lowlands-Northern Afghanistan,stopover,2021
+0_0000000000000000000a,Uzbek-Turk,3,0.096117253,Tallymarzhan-Turkmenistan-Uzbekistan,stopover,2021
+0_00000000000000000008,Russia,5,0.111889261,Manych-Stavropol Krai-Russia,stopover,2021
+0_00000000000000000004,Turkey,6,0.097123171,Ceylanpinar-Turkey,stopover,2021
+0_0000000000000000000b,Turkey,6,0.062087308,Malazgirt Plain-Turkey,stopover,2021
+0_00000000000000000006,Azerbaijan,8,0.103888843,East-Azerbaijan,stopover,2021
+0_00000000000000000007,China,9,0.100117469,Xinjiang-China,stopover,2021
+0_00000000000000000000,India,1,0.158584254,Gujarat-India,winter,2021
+0_0000000000000000000c,Pakistan,1,0.100126733,Indus-Pakistan,winter,2021
+0_0000000000000000000d,Pakistan,1,0.103202624,Indus-Pakistan,winter,2021
+0_00000000000000000005,Sudan,7,0.098151233,Kassala-Sudan,winter,2021
+1_00000000000000000003,Kazakhstan,4,0.10095044,Korgalzhyn-Kazakhstan,breed,2022
+1_0000000000000000000e,Kazakhstan,4,0.103383004,Pavlodar-Kazakhstan,breed,2022
+1_00000000000000000001,Saudi Arab,2,0.09815144,Pivot irrigation I-Saudi Arabia,stopover,2022
+1_00000000000000000009,Saudi Arab,2,0.093238258,Pivot irrigation II-Saudi Arabia,stopover,2022
+1_00000000000000000002,Afghanista,3,0.097070634,Lowlands-Northern Afghanistan,stopover,2022
+1_0000000000000000000a,Uzbek-Turk,3,0.096124321,Tallymarzhan-Turkmenistan-Uzbekistan,stopover,2022
+1_00000000000000000008,Russia,5,0.103187563,Manych-Stavropol Krai-Russia,stopover,2022
+1_00000000000000000004,Turkey,6,0.097135637,Ceylanpinar-Turkey,stopover,2022
+1_0000000000000000000b,Turkey,6,0.063971104,Malazgirt Plain-Turkey,stopover,2022
+1_00000000000000000006,Azerbaijan,8,0.100976144,East-Azerbaijan,stopover,2022
+1_00000000000000000007,China,9,0.101989834,Xinjiang-China,stopover,2022
+1_00000000000000000000,India,1,0.15765815,Gujarat-India,winter,2022
+1_0000000000000000000c,Pakistan,1,0.100110144,Indus-Pakistan,winter,2022
+1_0000000000000000000d,Pakistan,1,0.101901996,Indus-Pakistan,winter,2022
+1_00000000000000000005,Sudan,7,0.098135553,Kassala-Sudan,winter,2022

@@ -2,5 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
-*.csv
+TSS_soc_lap_allyears_1990-2023_LSAT.csv
 *.Rproj
+annual_suitability_maps/*

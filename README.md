@@ -1,4 +1,4 @@
-# Data for Agricultural land predicts changes in the habitat suitability for Critically Endangered Sociable Lapwing (Vanellus gregarius) through the annual cycle
+# Data for Habitat suitability for Sociable Lapwing (Vanellus gregarius) increases across its global range, but populations continue to decline
 
 Dataset DOI: [10.5061/dryad.6q573n6b6](10.5061/dryad.6q573n6b6)
 
@@ -17,10 +17,23 @@ Raw presence and absence are not uploaded due to their very large size. 'model_d
 2\) GEE_randomforest_workflow.java
 
 This script is written in Google Earth Engine and takes the file generated in step 1) 'model_df_gee.csv' to train a random forest model to predict monthly habitat suitability. 
-Additionally it takes 'regional_changes.shp' that allows to generate regional changes in habitat suitability for 15 examples regions through the annual migration cycle. 
+Additionally it takes 'regional_changes.shp' that allows to generate regional changes in habitat suitability for 15 examples regions through the annual migration cycle. Due 
+to the large size of 15 sites (and 34 years), statistics is exported into 5 different files - 
+regional_changes_stats_I.csv 
+regional_changes_stats_II.csv 
+regional_changes_stats_III.csv 
+regional_changes_stats_IV.csv
+regional_changes_stats_V.csv
+
+For convenience, these files are provided in the Dryad and GitHub repositories. Nevertheless, the script can be run in GEE to generate these files again if needed.
 
 3\) Plotting and summarizing results from the Random Forest Model 
+a) Plotting_habitat_suitability.R
+This script takes the annual median habitat suitability layers exported from Google Earth Engine and summarizes them using BirdLife international 
+home range polygons. This is Figure 2 in the manuscript.
 
+b) Plottin_regional_trends.R
+This script takes the regional changes statistics files exported from Google Earth Engine and summarizes them to generate Figure 4 in the manuscript.
 
 
 *Users need a Google Earth Engine account to run this script and need to upload the 'model_df_gee.csv' file and regional changes file in order to run the script. 
