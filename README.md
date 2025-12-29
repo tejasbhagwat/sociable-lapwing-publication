@@ -38,23 +38,22 @@ For convenience, these files are provided in the GitHub repository.
 Nevertheless, the script can be run in GEE to generate these files again
 if needed.
 
-3)  Plotting and summarizing results from the Random Forest Model a)
-    Plotting_habitat_suitability.R This script takes the annual median
-    habitat suitability layers exported from Google Earth Engine and
-    summarizes them using BirdLife international home range polygons.
-    This is Figure 2 in the manuscript.
+3)  Plotting and summarizing results from the Random Forest Model
 
-<!-- -->
-
-b)  Plotting_regional_trends.R This script takes the regional changes
-    statistics files exported from Google Earth Engine and summarizes
-    them to generate Figure 4 in the manuscript.
+    a) Plotting_habitat_suitability.R This script takes the annual median
+       habitat suitability layers exported from Google Earth Engine and
+       summarizes them using BirdLife international home range polygons.
+       This is Figure 2 in the manuscript.
+    
+    b) Plotting_regional_trends.R This script takes the regional changes
+       statistics files exported from Google Earth Engine and summarizes
+       them to generate Figure 4 in the manuscript.
 
 \*Users need a Google Earth Engine account to run this script and need
 to upload the 'model_df_gee.csv' file and regional changes file in order
 to run the script. \## Code/software
 
-Users need R programming software and an active Google Earth Engine
+\*Users need R programming software and an active Google Earth Engine
 account to view and process these data. Both scripts are shared. \##
 Access information
 
