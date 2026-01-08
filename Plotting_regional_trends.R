@@ -52,5 +52,5 @@ ggplot(regional_stats, aes(x = year, y = median_occurrence_probability, color = 
   theme(strip.text = element_text(size = 9, face = "bold"))
 #--------------------------------------------------------------------------------------------------------------------------------
 # Save the plot
-#ggsave("output_file.png", width = 10, height = 8, dpi = 300)
+ggsave("Fig4_high_res.png", width = 10, height = 8, dpi = 400)
 #--------------------------------------------------------------------------------------------------------------------------------

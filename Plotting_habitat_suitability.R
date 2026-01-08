@@ -76,5 +76,5 @@ p1 = ggplot(BL_stat_long, aes(x = factor(year), y = meanNC*100, fill = label)) +
                               "2024" = "2015-2024")) +
   scale_fill_manual(values = custom_palette) #+
 
-#ggsave("output_file.png", p1, width = 6, height = 4, dpi = 300)
+ggsave("Fig2_high_res.png", p1, width = 6, height = 4, dpi = 400)
 #--------------------------------------------------------------------------------------------------------------------------------
