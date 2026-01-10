@@ -1,13 +1,13 @@
-var model_df = ee.FeatureCollection("projects/phd-chapters/assets/sociable_lapwing/model_df_gee.csv"),
-    BL_HR = ee.FeatureCollection("projects/phd-chapters/assets/BirdLife_HR"),
-    roughness = ee.ImageCollection("projects/sat-io/open-datasets/Geomorpho90m/roughness"),
-    regional_changes = ee.FeatureCollection("projects/grants-463915/assets/regional_changes");
+// var model_df = ee.FeatureCollection("user_working_directory_on_gee/model_df_gee.csv")
+// var BL_HR = ee.FeatureCollection("user_working_directory_on_gee/BirdLife_HR"),
+// var roughness = ee.ImageCollection("projects/sat-io/open-datasets/Geomorpho90m/roughness"),
+// var regional_changes = ee.FeatureCollection("user_working_directory_on_gee/regional_changes");
 	
 //==========================================================================================================
 // Setup
 //==========================================================================================================
 /*
-- "model_df" is the file shared by Leon from HU where the values for NDVI and TC indices were 
+- "model_df" is the file where the values for NDVI and TC indices were 
    extracted for each presence and absence point. "obs_dat" column for that data is a date column which we dont 
    really need, so ignore that. The status column has the presence points along with 10 absence points
    that you generated. 
