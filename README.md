@@ -49,13 +49,14 @@ if needed.
        statistics files exported from Google Earth Engine and summarizes
        them to generate Figure 4 in the manuscript.
 
+## Code/software
 \*Users need a Google Earth Engine account to run this script and need
 to upload the 'model_df_gee.csv' file and regional changes file in order
-to run the script. \## Code/software
+to run the script. 
 
+## Access information
 \*Users need R programming software and an active Google Earth Engine
-account to view and process these data. Both scripts are shared. \##
-Access information
+account to view and process these data. Both scripts are shared. 
 
 Other publicly accessible locations of the data:
 
